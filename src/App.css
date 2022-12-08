@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+	background-color: lightgray;
+	height: 100vh;
+}
+
+/* Header */
+
+.App {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+}
+
+.header {
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	background-color: #555455;
+	border-radius: 0 0 3% 3%;
+	width: 100vw;
+}
+
+.profile-img {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.user-details {
+	display: flex;
+}
+
+.name-title {
+	margin-left: 1em;
+}
+
+.name-title > h3,
+p {
+	margin: 0;
+	color: whitesmoke;
+}
+
+.name-title > p {
+	font-size: 12px;
+}
+
+.approval-div {
+	display: flex;
+	justify-content: space-around;
+}
+
+.approval-div > h3 {
+	color: #f7921d;
+	margin-bottom: 0;
+}
+
+/* * {
+	border: 1px dashed red;
+} */
+
+/* Search Bar */
+
+.searchBar {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	/* width: 100vw; */
+}
+
+.main-search {
+	width: 90%;
+	background-color: #ffffff;
+}
+
+/* Footer */
+
+.footer-div {
+	display: flex;
+	background-color: #ffffff;
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+	justify-content: space-around;
+	height: 4em;
+	align-items: center;
+}
+
+.footer-icons {
+	font-size: 30px;
+}
