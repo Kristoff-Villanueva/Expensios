@@ -62,21 +62,17 @@ p {
 	margin-bottom: 0;
 }
 
-/* * {
-	border: 1px dashed red;
-} */
-
 /* Search Bar */
 
 .searchBar {
-	margin-top: 20px;
+	margin-top: 50px;
 	display: flex;
 	justify-content: center;
-	/* width: 100vw; */
+	width: 100%;
 }
 
 .main-search {
-	width: 90%;
+	width: 300px;
 	background-color: #ffffff;
 }
 
@@ -96,4 +92,73 @@ p {
 .footer-icons {
 	font-size: 30px;
 	cursor: pointer;
+}
+
+.formDiv {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.requestDiv {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	/* align-items: center; */
+}
+
+.requestInput {
+	width: 300px;
+	align-self: center;
+}
+
+.requestInputShort {
+	width: 140px;
+}
+
+/* * {
+	border: 1px dashed red;
+} */
+
+label {
+	text-align: left;
+}
+
+.amountDiv {
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+.pesoSign {
+	position: absolute;
+	color: gray;
+	bottom: 15px;
+	left: 5px;
+}
+
+.amount {
+	padding-left: 20px;
+}
+
+.mainDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100vw;
+}
+
+.submitBtn {
+	background-color: #03a9e7;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.dateNeeded {
+	color: #9d9494;
 }

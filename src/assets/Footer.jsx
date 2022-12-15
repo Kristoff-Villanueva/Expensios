@@ -4,13 +4,21 @@ import { Link } from "react-router-dom";
 const Footer = () => {
 	return (
 		<div className="footer-div">
-			<p className="footer-icons">🏠</p>
-			<p className="footer-icons">✉️</p>
-			<p className="footer-icons">
-				<Link to="/form">📝</Link>
-			</p>
-			<p className="footer-icons">🔔</p>
-			<p className="footer-icons">🔖</p>
+			<Link to="/home/welcome" className="footer-icons">
+				🏠
+			</Link>
+			<Link to="/home/inbox" className="footer-icons">
+				✉️
+			</Link>
+			<Link to="/home/form" className="footer-icons">
+				📝
+			</Link>
+			<Link to="/home/notifications" className="footer-icons">
+				🔔
+			</Link>
+			<Link to="/home/settings" className="footer-icons">
+				⚙️
+			</Link>
 		</div>
 	);
 };

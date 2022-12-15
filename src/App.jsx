@@ -10,11 +10,6 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Views />
-			<div className="App">
-				<Header />
-				<Searchbar />
-				<Footer />
-			</div>
 		</BrowserRouter>
 	);
 }
